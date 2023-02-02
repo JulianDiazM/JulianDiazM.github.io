@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    position: relative;
+    height: 52px;
+    width: 100vw;
+    background: linear-gradient(45deg, rgb(214, 59, 12), rgb(207, 81, 23));
+    font-size: 1.8rem;
+}
+
+.kit-bar {
+    position: absolute;
+    right: 0;
+}
+
+.kit-bar, .kit-bar__shortcuts, .kit-bar__shortcuts li {
+    height: 100%;
+}
+
+.kit-bar__shortcuts, .kit-bar__shortcuts li {
+    display: flex;
+}
+
+.kit-bar__shortcuts li {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.kit-bar__shortcuts a {
+    color: #fff;
+    text-decoration: none;
+}
